@@ -2,13 +2,13 @@
 
    In cadrul acestui proiect am implementat mai multe tipuri de sortari, pentru a analiza timpul de rulare si complexitatea acestora.
    
-   1.Merge Sort 
-   2.Shell Sort 
-   3.Radix Sort in baza 10
-   4.Radix Sort in baza 2^16, folosind operatii pe biti
-   5.Quick Sort cu pivot egal cu mediana din 2
-   6.Quick Sort alegand un pivot random
-   7.Tim Sort (algoritm hibrid)
+  1.Merge Sort 
+  2.Shell Sort 
+  3.Radix Sort in baza 10
+  4.Radix Sort in baza 2^16, folosind operatii pe biti
+  5.Quick Sort cu pivot egal cu mediana din 2
+  6.Quick Sort alegand un pivot random
+  7.Tim Sort (algoritm hibrid)
 
    Am observat faptul ca Shell Sort este un algoritm foarte usor de implementat, dar ca timp de executie este cel mai lent dintre toti algoritmii implementati in acest proiect.
    De asemenea, exista o diferenta vizibila ca timp de executie intre Radix Sort in baza 10 si Radix Sort in baza 2^16 (unde se folosesc operatiile pe biti). Radix Sort in baza 2^16 ruleaza intr-un timp ce se apropie de 0, fiind cel mai rapid algoritm de sortare care se regaseste in acest proiect. Este mai rapid chiar si decat STL Sort, algoritmul de sortare implicit al vectorilor de tip STL. Pe cand Radix Sort in baza 10 este mai lent decat Radix Sort in baza 2^16, dar mai rapid decat STL Sort.
