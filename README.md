@@ -1,0 +1,1 @@
+# Sortari_Analiza
